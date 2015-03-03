@@ -1,0 +1,24 @@
+{
+  "name": "modulex.gihub.io",
+  "version": "5.0.0",
+  "authors": [
+    "秋知 <benfchen.cf@alibaba-inc.com>"
+  ],
+  "description": "document for kissy@5.0.0",
+  "keywords": [
+    "kissy"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "modulex-combobox" : "modulex/combobox#1.x",
+    "modulex-component" : "modulex/component#1.x",
+    "modulex-dd" : "modulex/dd#1.x"
+  }
+}

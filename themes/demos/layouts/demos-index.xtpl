@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scale=no">
+	<title>Demos - KISSY v5.0 Documentation</title>
+	<link rel="shortcut icon" href="/{{{version}}}/assets/img/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="/{{{version}}}/assets/css/base.css">
+	<link rel="stylesheet" type="text/css" href="/{{{version}}}/assets/css/main.css">
+	<link rel="stylesheet" type="text/css" href="/{{{version}}}/assets/css/github.css"/>
+	<script type="text/javascript" src="http://g.tbcdn.cn/kissy/edge/2014.09.05/seed.js" data-config="{combine:true}"></script>
+</head>
+<body>
+	<div class="header">
+		{{{include ("../../layouts/header")}}}
+	</div>
+	<div class="main">
+		<div class="guides-index">
+			<div class="logo-on-top clearfix">
+				<img src="../assets/img/logo-on-top.png">
+			</div>
+			<div class="inner">
+				<h1>KISSY Demos</h1>
+				<ul class="modules clearfix">
+					{{#each(demoLists)}}
+					<li>
+						<a href="{{src}}">{{name}}</a>
+					</li>
+					{{/each}}
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		{{{include ("../../layouts/other-footer")}}}
+	</div>
+</body>
+</html>

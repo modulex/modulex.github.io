@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>KISSY - A Powerful JavaScript Framework</title>
+	<link rel="shortcut icon" href="/{{{version}}}/assets/img/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="/{{{version}}}/assets/css/base.css">
+	<link rel="stylesheet" type="text/css" href="/{{{version}}}/assets/css/main.css">
+	<link rel="stylesheet" type="text/css" href="/{{{version}}}/assets/css/github.css"/>
+	<script type="text/javascript" src="http://g.tbcdn.cn/kissy/edge/2014.09.05/seed.js" data-config="{combine:true}"></script>
+</head>
+<body>
+	<div class="header">
+		{{{include ("./header")}}}
+	</div>
+	<div class="main">
+		{{#if( page==="index" )}}
+			{{{mainContent}}}
+		{{/if}}
+		{{#if( page==="quickstart" )}}
+			<div class="quick-start">
+				<div class="logo-on-top clearfix">
+					<img src="assets/img/logo-on-top.png">
+				</div> 
+				<div class="inner">
+					{{{mainContent}}}
+				</div>
+			</div>
+		{{/if}}
+		{{#if( page==="faq")}}
+			<div class="faq">
+				<div class="logo-on-top clearfix">
+					<img src="/5.0/assets/img/logo-on-top.png">
+				</div> 
+				<div class="inner">
+					{{{mainContent}}}
+				</div>
+			</div>
+		{{/if}}
+		
+	</div>
+	<div class="footer">
+		{{#if( page==="index" )}}
+			{{{include ("./index-footer")}}}
+		{{else}}
+			{{{include ("./other-footer")}}}
+		{{/if}}
+	</div>
+</body>
+</html>

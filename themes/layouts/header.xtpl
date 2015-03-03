@@ -1,0 +1,49 @@
+<div class="inner">
+	<div class="toolbar">
+		<a href="/5.0">
+			<img class="mini-logo" src="/5.0/assets/img/mini-logo.png">
+		</a>
+		<ul class="nav clearfix">
+			<li class="docs">
+				<span>
+					Docs
+					<b class="caret"></b>
+				</span>
+				<ul>
+					<li><a href="/5.0/guides/">Guides</a></li>
+					<li><a href="/5.0/api">Api Docs</a></li>
+					<li><a href="/5.0/demos">Demos</a></li>
+				</ul>
+			</li>
+			<li class="more">
+				<span>
+					More
+					<b class="caret"></b>
+				</span>
+				<ul>
+					<li><a href="/5.0/more/faq.html">FAQ</a></li>
+					<li><a href="http://blog.kissyui.com/">KISSY Blog</a></li>
+					<li><a href="https://github.com/daxingplay/kmc">KMC</a></li>
+				</ul>
+			</li>
+			<li class="split"></li>
+			<li class="nav-other"><a href="/5.0/quick-start.html">Quick Start</a></li>
+			<li class="nav-other"><a href="https://github.com/modulex/kissy">Contribute</a></li>
+		</ul>
+	</div>
+	<!--<div class="search">-->
+		<!--<script>-->
+			<!--(function() {-->
+			<!--var cx = '003618533255763067140:5nkycw1pbey';-->
+			<!--var gcse = document.createElement('script');-->
+			<!--gcse.type = 'text/javascript';-->
+			<!--gcse.async = true;-->
+			<!--gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +-->
+			    <!--'//www.google.com/cse/cse.js?cx=' + cx;-->
+			<!--var s = document.getElementsByTagName('script')[0];-->
+			<!--s.parentNode.insertBefore(gcse, s);-->
+			<!--})();-->
+		<!--</script>-->
+		<!--<gcse:search></gcse:search>-->
+	<!--</div>-->
+</div>

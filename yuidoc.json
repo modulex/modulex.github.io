@@ -1,0 +1,14 @@
+{
+	"name" : "API Documentation — KISSY v5.0 Documentation",
+	"description" : "The KISSY API : KISSY is a powerfull javascript framework for building cross end web application such as desktop, mobile and pad.",
+	"version" : "1.0.0",
+	"url" : "docs.kissyui.com",
+	"options" : {
+		"linkNatives": true,        
+        "attributesEmit": false,
+        "selleck": true,
+        "paths" : "./src/api/",
+		"outdir" : "./5.0/api/",
+		"themedir" : "./themes/api/default/"
+	}
+}
